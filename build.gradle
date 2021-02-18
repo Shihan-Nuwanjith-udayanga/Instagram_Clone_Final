@@ -19,6 +19,8 @@ dependencies {
 	runtimeOnly 'mysql:mysql-connector-java'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
+	compile group: 'com.nimbusds', name: 'nimbus-jose-jwt', version: '9.4.1'
+	annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
 }
 
 test {

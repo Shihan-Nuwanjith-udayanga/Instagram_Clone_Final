@@ -16,4 +16,44 @@ public class React {
     private Post post;
     private ReactionEnum reaction;
     private Date time;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public InstaUser getReactor() {
+        return reactor;
+    }
+
+    public void setReactor(InstaUser reactor) {
+        this.reactor = reactor;
+    }
+
+    public Post getPost() {
+        return post;
+    }
+
+    public void setPost(Post post) {
+        this.post = post;
+    }
+
+    public ReactionEnum getReaction() {
+        return reaction;
+    }
+
+    public void setReaction(ReactionEnum reaction) {
+        this.reaction = reaction;
+    }
+
+    public Date getTime() {
+        return time;
+    }
+
+    public void setTime(Date time) {
+        this.time = time;
+    }
 }

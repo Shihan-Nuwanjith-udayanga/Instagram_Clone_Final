@@ -15,4 +15,36 @@ public class Share {
     @ManyToOne
     private Post post;
     private Date time;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public InstaUser getSharedUser() {
+        return sharedUser;
+    }
+
+    public void setSharedUser(InstaUser sharedUser) {
+        this.sharedUser = sharedUser;
+    }
+
+    public Post getPost() {
+        return post;
+    }
+
+    public void setPost(Post post) {
+        this.post = post;
+    }
+
+    public Date getTime() {
+        return time;
+    }
+
+    public void setTime(Date time) {
+        this.time = time;
+    }
 }
